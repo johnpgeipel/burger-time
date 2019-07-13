@@ -1,0 +1,57 @@
+body {
+  background-color: #eadb84;
+}
+
+.jumbotron {
+  background-color: #eadb84;
+  /* border: 30px solid red; */
+  /* border-radius: 40px; */
+}
+
+@font-face {
+  font-family: Albas;
+  src: url("../fonts/albas___.ttf");
+}
+
+#title {
+  font-family: Albas;
+  color: rgb(192, 98, 11);
+  margin-bottom: 20px;
+  /* padding: 40px;
+  border: 10px solid black;
+  border-radius: 20px;
+  background-color: none; */
+}
+
+.title-div {
+  padding: 10px;
+  border: 10px solid  #b9ad676b;
+  border-radius: 20px;
+  background-color: none;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.heading {
+  font-family: Albas;
+  font-size: 30px;
+  color: rgb(192, 98, 11);
+}
+
+
+
+.eat-icon, .trash-icon {
+  height: 30px;
+  width: auto;
+}
+
+.eat-form, .delete-form {
+  font-size: 20px;
+}
+
+.col-md-4 {
+  border-radius: 20px;
+  background-color: white;
+} 
+
+
