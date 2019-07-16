@@ -3,7 +3,8 @@ body {
 }
 
 .jumbotron {
-  background-color: #eadb84;
+  background-color: #E62;
+  /* background-color: #eadb84; */
   /* border: 30px solid red; */
   /* border-radius: 40px; */
 }
@@ -15,27 +16,38 @@ body {
 
 #title {
   font-family: Albas;
-  color: rgb(192, 98, 11);
+  color: #eadb84;
+  /* color: rgb(192, 98, 11); */
   margin-bottom: 20px;
-  /* padding: 40px;
-  border: 10px solid black;
-  border-radius: 20px;
-  background-color: none; */
+  font-size: 60px;
+
 }
 
-.title-div {
-  padding: 10px;
-  border: 10px solid  #b9ad676b;
-  border-radius: 20px;
-  background-color: none;
-  margin: 0 auto;
-  max-width: 600px;
+.form-group {
+  color:  black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
+
+.zdog-canvas {
+  background:rgb(68, 33, 4);
+  cursor: move;
+  border-radius:120px;
+
+}
+
+.trash-icon, .eat-icon {
+  color:  rgba(204, 34, 85, 0.5);
+  margin: 3px 3px -5px 3px;
+}
+
+
 
 .heading {
   font-family: Albas;
   font-size: 30px;
-  color: rgb(192, 98, 11);
+  color: #E62;
+  
 }
 
 
@@ -50,8 +62,16 @@ body {
 }
 
 .col-md-4 {
-  border-radius: 20px;
-  background-color: white;
+  
+  
+  
+ 
+  
+  
 } 
 
+.container {
+  position: relative;
+  min-height: 100vh;
+}
 

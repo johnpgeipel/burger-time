@@ -1,5 +1,5 @@
-
-<div class="row">
+<div class="container">
+    <div class="row">
 
     <div class="col-md-4 col-sm-12 col-xs-12">
     	<h3 class="heading">BURGERS TO EAT</h3>
@@ -8,15 +8,17 @@
 		        <form class="eat-form form-group" action="/{{this.id}}?_method=PUT" method="POST">
 		        	{{this.burger_name}}
 		            <input type="hidden" name="eat" value="true">
-		            {{!-- <input type="image" class="eat-icon" src="../assets/img/eat.png" alt="eat icon"/> --}}
-                    <i class="fas fa-hamburger"></i>
+		            <input type="image" class="eat-icon" src="assets/img/burger.png" alt="eat icon"/>
 		        </form>
         	{{/unless}} 
         {{/each}}
     </div>
 
     <div class="col-md-4 col-sm-12 col-xs-12">
-    	{{!-- <img src="/assets/img/burger.png" class="img-responsive" alt="burger"> --}}
+        <div class="canvas_1">
+                        <canvas class="zdog-canvas" width="240" height="240"></canvas>
+                </div>
+    	
         <h3 class="heading">ADD BURGERS</h3>
         <form class="add-burger-form" action="/" method="POST">
             <div class="form-group">
@@ -40,3 +42,5 @@
         </div>
     </div>
 </div>
+</div>
+
