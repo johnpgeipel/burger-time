@@ -5,6 +5,6 @@ CREATE TABLE burgers(
 	id INT AUTO_INCREMENT NOT NULL ,
 	burger_name VARCHAR(255) NOT NULL,
 	devoured BOOLEAN DEFAULT false,
-	date TIMESTAMP,
-	PRIMARY KEY (id)
+	createdAt TIMESTAMP NOT NULL,
+	PRIMARY KEY(id)
 );
