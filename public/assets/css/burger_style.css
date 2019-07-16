@@ -24,6 +24,11 @@ body {
 
 }
 
+.btn-outline-secondary {
+  background-color: #E62;
+  color: white; 
+}
+
 .form-group {
   color:  black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
