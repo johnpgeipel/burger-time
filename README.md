@@ -10,6 +10,6 @@
 HTML, CSS, Javascript, Zdog.js, Handlebars.js, Express.js, Node.js, MySQL & Heroku.
 
 ## Screenshot
-![Burger](https://github.com/johnpgeipel/burger-time/blob/master/public/assets/img/Burger_Shot.PNG?raw=true)
+![Burger](https://github.com/johnpgeipel/burger-time/blob/master/public/assets/img/burger_shot2.PNG?raw=true)
 
 

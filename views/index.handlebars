@@ -9,7 +9,7 @@
 		        <form class="eat-form form-group" action="/{{this.id}}?_method=PUT" method="POST">
 		        	{{this.burger_name}}
 		            <input type="hidden" name="eat" value="true">
-		            <input type="image" class="eat-icon" src="assets/img/burger.png" alt="eat icon"/>
+		            <input type="image" class="eat-icon" src="assets/img/burger3.png" alt="eat icon"/>
 		        </form>
         	{{/unless}} 
         {{/each}}
@@ -24,7 +24,7 @@
         <h3 class="heading">ADD BURGERS</h3>
         <form class="add-burger-form" action="/" method="POST">
             <div class="form-group">
-                <input type="text" id="newBurger" name="name" placeholder="Burger name">
+                <input type="text" id="newBurger" name="name" placeholder="  Burger name">
                 <button type="submit" class="btn btn-outline-secondary">Submit</button>
             </div>
         </form>
@@ -39,7 +39,7 @@
             	{{#if this.devoured}}
             		<form class="delete-form form-group" action="/{{this.id}}?_method=DELETE" method="POST">
             			{{this.burger_name}}
-            			<input type="image" class="trash-icon" src="assets/img/trash.png" alt="trash icon"/>
+            			<input type="image" class="trash-icon" src="assets/img/trash2.png" alt="trash icon"/>
 					</form>
             	{{/if}} 
             {{/each}}
@@ -48,4 +48,8 @@
     </div>
 </div>
 </div>
+                
+</div>
+<footer id="footer">Copyright © 2019 John P. Geipel</footer>
+        </div>
 

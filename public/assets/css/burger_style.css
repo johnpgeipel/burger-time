@@ -4,6 +4,7 @@ body {
 
 .jumbotron {
   background-color: #E62;
+  
   /* background-color: #eadb84; */
   /* border: 30px solid red; */
   /* border-radius: 40px; */
@@ -16,27 +17,45 @@ body {
 
 @font-face {
   font-family: Albam;
-  src: url("../fonts/ALBAM___.ttf");
+  src: url("../fonts/ALBAM___.TTF");
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("../fonts/Comfortaa-Bold.ttf");
 }
 
 #title {
   font-family: Albas;
   /* color: #eadb84; */
   /* color: rgb(192, 98, 11); */
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   /* color: rgb(248, 240, 229);*/
   color: white;
   font-size: 60px;
+  
+  text-shadow: 0px 8px 12px rgba(68, 33, 4, 0.30);
+  
   
 
 }
 
 .box {
   background-color: white;
-  border-radius: 15px;
-  border: 1px solid #E62;
+  border-radius: 20px;
+  /* border: 3px solid #E62; */
   margin: 10px 0px;
   box-shadow: 0px 8px 12px rgba(68, 33, 4, 0.20);
+  padding: 5px 0px;
+}
+
+#newBurger {
+  background-color: #f0e8bf;
+  height: 40px;
+  border-radius: 8px;
+  margin: 15px 5px -10px 0px;
+  border-style: none;
+  
 }
 
 
@@ -47,19 +66,29 @@ body {
 .btn-outline-secondary {
   background-color: #E62;
   color: white; 
+  height: 37px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  line-height: 12px;
+  padding: 8px 12px 4px 12px;
 }
 
 .form-group {
-  color:  black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:  #804012;
+  font-family: Comfortaa;
+  line-height: 3px;
+  
+  /* font-family: Albam; */
   
 }
 
 .zdog-canvas {
-  background:rgb(68, 33, 4);
+  background: #804012;
   cursor: move;
-  border-radius:120px;
+  border-radius:130px;
   margin: 10px 0px;
+  border: 9px solid white;
+  box-shadow: 0px 9px 12px rgba(68, 33, 4, 0.30);
 
 }
 
@@ -71,9 +100,10 @@ body {
 
 
 .heading {
-  font-family: Albas;
-  font-size: 30px;
+  font-family: Albam;
+  font-size: 35px;
   color: #E62;
+  letter-spacing: 1px;
   
 }
 
@@ -99,4 +129,19 @@ body {
   position: relative;
   min-height: 100vh;
 }
+#footer {
+  background-color: #804012;
+  height: 70px;
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 15px;
+  line-height: 40px;
+  padding-top: 10px;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+}
+
 
