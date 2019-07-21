@@ -4,6 +4,11 @@ body {
 
 .jumbotron {
   background-color: #E62;
+  border-top: 40px solid #80401252;
+  border-bottom: 40px solid rgba(238, 167, 34, 0.30);
+  padding: 0px 0px;
+  box-shadow: 0px 8px 9px rgba(68, 33, 4, 0.20);
+  
   
   /* background-color: #eadb84; */
   /* border: 30px solid red; */
@@ -26,18 +31,19 @@ body {
 }
 
 #title {
-  font-family: Albas;
+  /* font-family: Albas; */
+  font-family: Albam;
+  -webkit-text-stroke: white 2px;
+  color: #9c4e15;
+
   /* color: #eadb84; */
   /* color: rgb(192, 98, 11); */
   margin-bottom: 10px;
   /* color: rgb(248, 240, 229);*/
-  color: white;
+  /* color: white; */
   font-size: 60px;
-  
-  text-shadow: 0px 8px 12px rgba(68, 33, 4, 0.30);
-  
-  
-
+  /* text-shadow: 0px 8px 12px rgba(68, 33, 4, 0.30); */
+  text-shadow: 0px 9px 0px rgb(163, 72, 26, 0.6);
 }
 
 .box {
@@ -45,7 +51,7 @@ body {
   border-radius: 20px;
   /* border: 3px solid #E62; */
   margin: 10px 0px;
-  box-shadow: 0px 8px 12px rgba(68, 33, 4, 0.20);
+  box-shadow: 0px 8px 9px rgba(68, 33, 4, 0.20);
   padding: 5px 0px;
 }
 
@@ -63,23 +69,27 @@ body {
 
 
 
-.btn-outline-secondary {
-  background-color: #E62;
-  color: white; 
-  height: 37px;
-  margin-bottom: 5px;
-  border-radius: 8px;
-  line-height: 12px;
-  padding: 8px 12px 4px 12px;
-}
+
 
 .form-group {
   color:  #804012;
   font-family: Comfortaa;
   line-height: 3px;
   
+  
   /* font-family: Albam; */
   
+}
+
+.btn-outline-secondary {
+  background-color: #E62;
+  color: white; 
+  height: 40px;
+  margin-bottom: 1px;
+  border-radius: 8px;
+  line-height: 12px;
+  padding: 6px 12px 6px 12px;
+  -webkit-text-stroke: none !important;
 }
 
 .zdog-canvas {
@@ -104,6 +114,7 @@ body {
   font-size: 35px;
   color: #E62;
   letter-spacing: 1px;
+  text-shadow: 0px 4px 1px rgba(68, 33, 4, 0.20);
   
 }
 
@@ -116,14 +127,7 @@ body {
   font-size: 20px;
 }
 
-.col-md-4 {
-  
-  
-  
- 
-  
-  
-} 
+
 
 .container {
   position: relative;
