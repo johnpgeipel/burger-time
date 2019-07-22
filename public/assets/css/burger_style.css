@@ -4,10 +4,10 @@ body {
 
 .jumbotron {
   background-color: #E62;
-  border-top: 40px solid #80401252;
-  border-bottom: 40px solid rgba(238, 167, 34, 0.30);
+  border-top: 40px solid #804012c2;
+  border-bottom: 40px solid rgba(238, 167, 34, 0.80);
   padding: 0px 0px;
-  box-shadow: 0px 8px 9px rgba(68, 33, 4, 0.20);
+  box-shadow: 0px 8px 12px rgba(68, 33, 4, 0.20);
   
   
   /* background-color: #eadb84; */
@@ -35,7 +35,7 @@ body {
   font-family: Albam;
   -webkit-text-stroke: white 2px;
   color: #9c4e15;
-
+  line-height: 40px;
   /* color: #eadb84; */
   /* color: rgb(192, 98, 11); */
   margin-bottom: 10px;
@@ -64,13 +64,6 @@ body {
   
 }
 
-
-
-
-
-
-
-
 .form-group {
   color:  #804012;
   font-family: Comfortaa;
@@ -93,7 +86,8 @@ body {
 }
 
 .zdog-canvas {
-  background: #804012;
+  /* background: #804012; */
+  background: rgba(238, 167, 34, 0.80);
   cursor: move;
   border-radius:130px;
   margin: 10px 0px;
@@ -114,7 +108,7 @@ body {
   font-size: 35px;
   color: #E62;
   letter-spacing: 1px;
-  text-shadow: 0px 4px 1px rgba(68, 33, 4, 0.20);
+  /* text-shadow: 0px 4px 1px rgba(68, 33, 4, 0.20); */
   
 }
 

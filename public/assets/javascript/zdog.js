@@ -1,7 +1,7 @@
 var yellow = '#ED0';
 var gold = '#EA0';
 var orange = '#E62';
-var garnet = '#C25';
+var garnet = '#804012';
 const TAU = Zdog.TAU;
 
 var illo = new Zdog.Illustration({
