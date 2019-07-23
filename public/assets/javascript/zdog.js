@@ -2,6 +2,8 @@ var yellow = '#ED0';
 var gold = '#EA0';
 var orange = '#E62';
 var garnet = '#804012';
+var lettuce = "#4ebd03";
+var tomato = "#bd1903";
 const TAU = Zdog.TAU;
 
 var illo = new Zdog.Illustration({
@@ -20,11 +22,33 @@ var burger = new Zdog.Anchor({
 var topBun = new Zdog.Hemisphere({
   addTo: burger,
   diameter: 96,
-  translate: { z: 44 },
+  translate: { z: 64 },
+  // translate: { z: 44 },
   stroke: 24,
   color: orange,
   // backface: gold,
 });
+
+// Tomato
+new Zdog.Ellipse({
+  addTo: burger,
+  diameter: 96,
+  stroke: 15,
+  color: tomato,
+  translate: { z: 44 },
+  fill: true,
+});
+
+// lettuce
+new Zdog.Ellipse({
+  addTo: burger,
+  diameter: 106,
+  stroke: 10,
+  color: lettuce,
+  translate: { z: 34 },
+  fill: true,
+});
+
 
 // cheese
 new Zdog.Rect({
