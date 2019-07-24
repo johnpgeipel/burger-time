@@ -32,7 +32,7 @@ var topBun = new Zdog.Hemisphere({
 // Tomato
 new Zdog.Ellipse({
   addTo: burger,
-  diameter: 96,
+  diameter: 90,
   stroke: 15,
   color: tomato,
   translate: { z: 44 },
@@ -40,9 +40,10 @@ new Zdog.Ellipse({
 });
 
 // lettuce
-new Zdog.Ellipse({
+new Zdog.Polygon({
   addTo: burger,
-  diameter: 106,
+  sides: 5,
+  radius: 60,
   stroke: 10,
   color: lettuce,
   translate: { z: 34 },
