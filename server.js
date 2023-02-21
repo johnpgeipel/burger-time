@@ -7,7 +7,7 @@ var methodOverride = require("method-override");
 
 // sets up the express app and server
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT;
 
 // sets up the express app to handle data parsing
 app.use(bodyParser.json());
